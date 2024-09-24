@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap');
+
+*{
+    font-family: 'Lora', serif;
+}
+
+.header{
+    background-color: rgb(194, 0, 0);
+    padding:25px;
+    padding-left: 55px;
+    color:white;
+    font-family: 'Single Day', cursive;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.header .profile{
+    margin-right: 0px;
+}
+
+.profile,.logout,.upload,.cart{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.header button{
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+
+.header .upload{
+    margin-left: 850px;
+}
+
+.header button{
+    margin-left: 12px;
+}
+
+.header .logout{
+    margin-left: 12px;
+}
+
+
+.body{background: #232526;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap:45px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+  .gridItem {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    
+  }
